@@ -75,20 +75,18 @@ p {
 }
 
 .message textarea {
-    text-transform: capitalize;
     font: oblique 14px "Times New Roman", serif;
 }
 
 
-input[type="text"] {
+input[type="text"], input[type="email"], input[type="tel"] {
     height: 20px;
     width:150px;
-    text-transform: capitalize;
     font: oblique 14px "Times New Roman", serif;
 }
 
 
-input[type="reset"], input[type="submit"], input[type="button"] {
+input[type="reset"], input[type="submit"] {
     height: 30px;
     width:100px;
     font: bold 14px "Times New Roman", serif;
@@ -100,10 +98,6 @@ input[type="reset"],{
 
 input[type="submit"]{
     background-color: #00FF00;
-}
-
-input[type="button"]{
-    background-color: #FF0000;
 }
 
 footer {
