@@ -86,17 +86,17 @@ input[type="text"], input[type="email"], input[type="tel"] {
 }
 
 
-input[type="reset"], input[type="submit"] {
+button {
     height: 30px;
     width:100px;
     font: bold 14px "Times New Roman", serif;
 }
 
-input[type="reset"],{
+button[name="clear"] {
     background-color: #A9A9A9;
 }
 
-input[type="submit"]{
+button[name="send"] {
     background-color: #00FF00;
 }
 
