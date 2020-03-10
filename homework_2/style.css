@@ -1,0 +1,114 @@
+body {
+    background-color: #f8f8f8;
+}
+
+header {
+    height: 150px;
+    background-image: url(img/headerBackground.jpg);
+}
+
+
+h1 {
+    color: rgb(253, 251, 251);
+    font-size: 45px;
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+}
+
+h2 {
+    color: #000;
+    font: 18px "Times New Roman", serif;
+    background-color: #eaeaea;
+    text-align: center;
+    height: 30px;
+    padding-top: 6px;
+}
+
+.price {
+    color: rgb(255, 94, 0);
+}
+
+.otherShops a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.briefDescription {
+    color: #707070;
+    font: italic 14px "Times New Roman", serif;
+    line-height: 16px;
+}
+
+.detailedDescription {
+    color: #484343;
+    font: 400 16px "Times New Roman", serif;
+    line-height: 24px;
+    text-align: left;
+}
+
+.specifications {
+    color: #2F4F4F;
+    font-size: 15px;
+    line-height: 22px;
+    list-style-image: url(img/mediator.jpg);
+}
+
+.particularQualities {
+    color: #DC143C;
+    font-size: 15px;
+    line-height: 22px;
+    list-style-image: url(img/mediator.jpg);
+}
+
+p {
+    overflow: auto;
+}
+
+
+.picture img {
+    border: 3px solid #FFA500;
+}
+
+.picture {
+    margin-left: 365px;
+}
+
+.message textarea {
+    font: oblique 14px "Times New Roman", serif;
+}
+
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    height: 20px;
+    width:150px;
+    font: oblique 14px "Times New Roman", serif;
+}
+
+
+button {
+    height: 30px;
+    width:100px;
+    font: bold 14px "Times New Roman", serif;
+}
+
+button[name="clear"] {
+    background-color: #A9A9A9;
+}
+
+button[name="send"] {
+    background-color: #00FF00;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    background-color: #696969;
+}
+
+
+footer p {
+    color: #FFFAFA;
+    text-align: center;
+    padding-top: 30px;
+}
